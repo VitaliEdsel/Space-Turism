@@ -6,8 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'background-home-desktop': "url('./assets/home/background-home-desktop.jpg')",
+      },
     },
   },
   plugins: [],
 }
-

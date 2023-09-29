@@ -1,11 +1,10 @@
 import "../app.css"
 import Navbar from "../components/Navbar"
-import Imagem from '../assets/home/background-home-desktop.jpg'
 
 
 function Home() {
     return (
-        <div className="h-screen pt-10 bg-custom" style={{ backgroundImage: `url(${Imagem})` }}>
+        <div className="h-screen pt-10 pl-16 bg-custom bg-background-home-desktop">
             <Navbar />
         </div>
     )
