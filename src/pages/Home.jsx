@@ -4,8 +4,8 @@ import Navbar from "../components/Navbar"
 
 function Home() {
     return (
-        <div className="h-screen pt-10 pl-16 bg-custom bg-background-home-desktop">
-            <Navbar />
+        <div className="h-screen bg-custom bg-background-home-desktop">
+            <Navbar lbranca={1} />
         </div>
     )
 }

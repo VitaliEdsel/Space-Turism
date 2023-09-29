@@ -9,6 +9,13 @@ export default {
       backgroundImage: {
         'background-home-desktop': "url('./assets/home/background-home-desktop.jpg')",
       },
+      width: {
+        '125': '500px',
+        '68px': '68px',
+      },
+      height: {
+        '0.25': '1px'
+      },
     },
   },
   plugins: [],
