@@ -1,7 +1,9 @@
+import Navbar from '../components/Navbar'
+
 function Destination() {
     return (
-        <div>
-            dgsdfsdf
+        <div className='bg-black'>
+            <Navbar lbranca={2}/>
         </div>
     )
 }
