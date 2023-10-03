@@ -86,7 +86,7 @@ function Navbar(props) {
 
     function abrirmenu() {
         sethamburguer("hidden")
-        setnavhidden('block fixed right-0 z-10 backdrop-blur-xl bg-white/5 w-3/5 h-[100vh] flex flex-col justify-center gap-6 pl-6')
+        setnavhidden('block fixed right-0 z-50  backdrop-blur-xl bg-white/5 w-3/5 h-[100vh] flex flex-col justify-center gap-6 pl-6')
         seticlose('absolute top-[34px] right-6 ')
     }
 
