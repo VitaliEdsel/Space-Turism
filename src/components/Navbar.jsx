@@ -86,7 +86,7 @@ function Navbar(props) {
 
     function abrirmenu() {
         sethamburguer("hidden")
-        setnavhidden('block backdrop-blur-xl bg-white/5 w-3/5 h-screen flex flex-col justify-center gap-6 pl-6')
+        setnavhidden('block fixed right-0 z-10 backdrop-blur-xl bg-white/5 w-3/5 h-[100vh] flex flex-col justify-center gap-6 pl-6')
         seticlose('absolute top-[34px] right-6 ')
     }
 
@@ -106,7 +106,7 @@ function Navbar(props) {
                 <Link to='/Crew'><li onMouseOver={over3} onMouseOut={out3}><div className="text-white flex gap-2"><span className={estilobranca3}></span><p className='barlow-16-27 font-medium'>02</p><p className='barlow-16-27'>Crew</p></div></li></Link>
                 <Link to='/Technology'><li onMouseOver={over4} onMouseOut={out4}><div className="text-white flex gap-2"><span className={estilobranca4}></span><p className='barlow-16-27 font-medium'>03</p><p className='barlow-16-27'>Technology</p></div></li></Link>
             </ul>
-            <span className='hidden md:hidden lg:block bg-[#41444D] h-0.25 w-[470px] absolute left-40'></span>
+            <span className='hidden md:hidden lg:block bg-[#41444D] h-0.25 w-2/5 absolute left-40'></span>
         </header>
     )
 }

@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 
 function Destination() {
     return (
-        <div className='bg-black'>
+        <div className='bg-background-destination-desktop bg-no-repeat h-[100vh] overflow-auto'>
             <Navbar lbranca={2}/>
         </div>
     )
