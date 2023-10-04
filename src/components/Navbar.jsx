@@ -10,7 +10,8 @@ function Navbar(props) {
     var [branca, setbranca] = useState(props.lbranca)
     var [hamburguer, sethamburguer] = useState("hidden max-md:block mr-6 mt-9")
     var [iclose, seticlose] = useState("hidden absolute right-6 top-9")
-    var [navhidden, setnavhidden] = useState('max-md:hidden backdrop-blur-xl bg-white/5 max-md:pt-[100px] flex max-md:flex-col justify-center max-md:justify-start items-center max-md:gap-[30px] gap-14 h-20 max-md:h-screen max-md:w-3/5 w-[759px]')
+    let classenav = ''
+    var [navhidden, setnavhidden] = useState('max-md:hidden md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
     var [estilobranca, setestilobranca] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-68px')
     var [estilobranca2, setestilobranca2] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-[116px]')
     var [estilobranca3, setestilobranca3] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-[63px]')
@@ -86,13 +87,13 @@ function Navbar(props) {
 
     function abrirmenu() {
         sethamburguer("hidden")
-        setnavhidden('block fixed right-0 z-50  backdrop-blur-xl bg-white/5 w-3/5 h-[100vh] flex flex-col justify-center gap-6 pl-6')
-        seticlose('absolute top-[34px] right-6 ')
+        setnavhidden('max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6 md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
+        seticlose('md:hidden absolute top-[34px] right-6 ')
     }
 
     function fecharmenu() {
-        setnavhidden('hidden')
-        sethamburguer("max-md:block mr-6 mt-9")
+        setnavhidden('max-md:hidden max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
+        sethamburguer("max-md:block mr-6 mt-9 hidden")
     }
 
     return (
