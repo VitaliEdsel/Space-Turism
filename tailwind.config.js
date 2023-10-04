@@ -13,6 +13,12 @@ export default {
         'background-destination-desktop': "url('./assets/destination/background-destination-desktop.jpg')",
         'background-destination-tablet': "url('./assets/destination/background-destination-tablet.jpg')",
         'background-destination-mobile': "url('./assets/destination/background-destination-mobile.jpg')",
+        'background-crew-mobile': "url('./assets/crew/background-crew-mobile.jpg')",
+        'background-crew-desktop': "url('./assets/crew/background-crew-desktop.jpg')",
+        'background-crew-tablet': "url('./assets/crew/background-crew-tablet.jpg')",
+        'background-technology-tablet': "url('./assets/technology/background-technology-tablet.jpg')",
+        'background-technology-mobile': "url('./assets/technology/background-technology-mobile.jpg')",
+        'background-technology-desktop': "url('./assets/technology/background-technology-desktop.jpg')",
       },
       width: {
         '125': '500px',
