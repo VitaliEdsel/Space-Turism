@@ -11,7 +11,7 @@ function Navbar(props) {
     var [hamburguer, sethamburguer] = useState("hidden max-md:block mr-6 mt-9")
     var [iclose, seticlose] = useState("hidden absolute right-6 top-9")
     let classenav = ''
-    var [navhidden, setnavhidden] = useState('max-md:hidden md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
+    var [navhidden, setnavhidden] = useState('max-md:hidden z-10 md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
     var [estilobranca, setestilobranca] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-68px')
     var [estilobranca2, setestilobranca2] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-[116px]')
     var [estilobranca3, setestilobranca3] = useState('max-md:hidden absolute top-[78px] block bg-white h-0.5 w-[63px]')
@@ -87,12 +87,12 @@ function Navbar(props) {
 
     function abrirmenu() {
         sethamburguer("hidden")
-        setnavhidden('max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6 md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
+        setnavhidden('z-10 max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6 md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
         seticlose('md:hidden absolute top-[34px] right-6 ')
     }
 
     function fecharmenu() {
-        setnavhidden('max-md:hidden max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]max-md:fixed max-md:right-0 max-md:z-50  max-md:backdrop-blur-xl max-md:bg-white/5 max-md:w-3/5 max-md:h-[100vh] max-md:flex max-md:flex-col max-md:justify-center max-md:gap-6 max-md:pl-6  md:backdrop-blur-xl md:bg-white/5 md:flex md:justify-center md:items-center md:gap-14 md:h-20 md:w-[759px]')
+        setnavhidden('z-10 max-md:hidden bg-white/5 flex justify-center max-md:right-0 backdrop-blur-xl max-md:w-3/5 max-md:h-[100vh] max-md:flex-col max-md:gap-6 max-md:pl-6 md:items-center md:gap-14 md:h-20 md:w-[759px]')
         sethamburguer("max-md:block mr-6 mt-9 hidden")
     }
 
@@ -107,7 +107,7 @@ function Navbar(props) {
                 <Link to='/Crew'><li onMouseOver={over3} onMouseOut={out3}><div className="text-white flex gap-2"><span className={estilobranca3}></span><p className='barlow-16-27 font-medium'>02</p><p className='barlow-16-27'>Crew</p></div></li></Link>
                 <Link to='/Technology'><li onMouseOver={over4} onMouseOut={out4}><div className="text-white flex gap-2"><span className={estilobranca4}></span><p className='barlow-16-27 font-medium'>03</p><p className='barlow-16-27'>Technology</p></div></li></Link>
             </ul>
-            <span className='hidden md:hidden lg:block bg-[#41444D] h-0.25 w-2/5 absolute left-40'></span>
+            <span className='hidden md:hidden z-0 lg:block bg-[#41444D] h-0.25 w-2/5 absolute left-40'></span>
         </header>
     )
 }
