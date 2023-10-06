@@ -100,6 +100,7 @@ function Navbar(props) {
         <header className="flex justify-between max-md:items-start items-center max-md:pl-0 pl-14 md:pt-0 lg:pt-4">
             <Link to='/'><img src={Logo} className="w-10 h-10 max-md:mt-6 max-md:ml-6"></img></Link>
             <button className={hamburguer} onClick={abrirmenu}><img src={Menu}></img></button>
+            <span className='hidden md:hidden z-40 lg:block bg-[#41444D] h-0.25  ml-7 flex-grow translate-x-8'></span>
             <ul className={navhidden}>
                 <button className={iclose} onClick={fecharmenu}><img src={Close}></img></button>
                 <Link to="/"><li onMouseOver={over1} onMouseOut={out1}><div className="text-white flex gap-2"><span className={estilobranca}></span><p className='barlow-16-27 font-medium'>00</p><p className='barlow-16-27'> Home</p></div></li></Link>
@@ -107,7 +108,7 @@ function Navbar(props) {
                 <Link to='/Crew'><li onMouseOver={over3} onMouseOut={out3}><div className="text-white flex gap-2"><span className={estilobranca3}></span><p className='barlow-16-27 font-medium'>02</p><p className='barlow-16-27'>Crew</p></div></li></Link>
                 <Link to='/Technology'><li onMouseOver={over4} onMouseOut={out4}><div className="text-white flex gap-2"><span className={estilobranca4}></span><p className='barlow-16-27 font-medium'>03</p><p className='barlow-16-27'>Technology</p></div></li></Link>
             </ul>
-            <span className='hidden md:hidden z-0 lg:block bg-[#41444D] h-0.25 w-2/5 absolute left-40'></span>
+            
         </header>
     )
 }
