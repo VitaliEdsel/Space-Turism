@@ -41,6 +41,12 @@
   letter-spacing: 2.7px;
 }
 
+.barlow-17-300w {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
 .barlow-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 26px;
