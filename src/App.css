@@ -13,6 +13,11 @@
   font-size: 56px;
 }
 
+.bellefair-50 {
+  font-family: 'Bellefair', serif;
+  font-size: 50px;
+}
+
 .bellefair-32 {
   font-family: 'Bellefair', serif;
   font-size: 32px;
@@ -45,6 +50,11 @@
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 17px;
   font-weight: 300;
+}
+
+.barlow-18 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
 }
 
 .barlow-title {

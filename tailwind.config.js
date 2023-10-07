@@ -19,6 +19,12 @@ export default {
         'background-technology-tablet': "url('./assets/technology/background-technology-tablet.jpg')",
         'background-technology-mobile': "url('./assets/technology/background-technology-mobile.jpg')",
         'background-technology-desktop': "url('./assets/technology/background-technology-desktop.jpg')",
+        'launch-landscape': "url('./assets/technology/image-launch-vehicle-landscape.jpg')",
+        'launch-portrait': "url('./assets/technology/image-launch-vehicle-portrait.jpg')",
+        'capsule-landscape': "url('./assets/technology/image-space-capsule-landscape.jpg')",
+        'capsule-portrait': "url('./assets/technology/image-space-capsule-portrait.jpg')",
+        'spaceport-landscape': 'url("./assets/technology/image-spaceport-landscape.jpg")',
+        'spaceport-portrait': 'url("./assets/technology/image-spaceport-portrait.jpg")',
       },
       width: {
         '125': '500px',
