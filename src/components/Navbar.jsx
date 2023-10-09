@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Logo from "../assets/shared/logo.svg"
 import { useState, useEffect } from 'react'
-import '../app.css'
+import '../App.css'
 import Menu from '../assets/shared/icon-hamburger.svg'
 import Close from '../assets/shared/icon-close.svg'
 

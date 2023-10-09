@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Title from '../components/Title'
-import '../app.css'
+import '../App.css'
 import { useState } from 'react'
 import launchl from '../assets/technology/image-launch-vehicle-landscape.jpg'
 import launchp from '../assets/technology/image-launch-vehicle-portrait.jpg'

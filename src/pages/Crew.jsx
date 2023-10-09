@@ -5,7 +5,7 @@ import mark from '../assets/crew/image-mark-shuttleworth.png'
 import victor from '../assets/crew/image-victor-glover.png'
 import anou from '../assets/crew/image-anousheh-ansari.png'
 import { useState } from 'react'
-import '../app.css'
+import '../App.css'
 
 let bola = 1
 
