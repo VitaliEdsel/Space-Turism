@@ -103,10 +103,10 @@ function Navbar(props) {
             <span className='hidden md:hidden z-40 lg:block bg-[#41444D] h-0.25  ml-7 flex-grow translate-x-8'></span>
             <ul className={navhidden}>
                 <button className={iclose} onClick={fecharmenu}><img src={Close}></img></button>
-                <Link to="Space-Tourism//"><li onMouseOver={over1} onMouseOut={out1}><div className="text-white flex gap-2"><span className={estilobranca}></span><p className='barlow-16-27 font-medium'>00</p><p className='barlow-16-27'> Home</p></div></li></Link>
-                <Link to='Space-Tourism//Destination'><li onMouseOver={over2} onMouseOut={out2}><div className="text-white flex gap-2"><span className={estilobranca2}></span><p className='barlow-16-27 font-medium'>01</p><p className='barlow-16-27'>Destination</p></div></li></Link>
-                <Link to='Space-Tourism//Crew'><li onMouseOver={over3} onMouseOut={out3}><div className="text-white flex gap-2"><span className={estilobranca3}></span><p className='barlow-16-27 font-medium'>02</p><p className='barlow-16-27'>Crew</p></div></li></Link>
-                <Link to='Space-Tourism//Technology'><li onMouseOver={over4} onMouseOut={out4}><div className="text-white flex gap-2"><span className={estilobranca4}></span><p className='barlow-16-27 font-medium'>03</p><p className='barlow-16-27'>Technology</p></div></li></Link>
+                <Link to="/"><li onMouseOver={over1} onMouseOut={out1}><div className="text-white flex gap-2"><span className={estilobranca}></span><p className='barlow-16-27 font-medium'>00</p><p className='barlow-16-27'> Home</p></div></li></Link>
+                <Link to='/Destination'><li onMouseOver={over2} onMouseOut={out2}><div className="text-white flex gap-2"><span className={estilobranca2}></span><p className='barlow-16-27 font-medium'>01</p><p className='barlow-16-27'>Destination</p></div></li></Link>
+                <Link to='/Crew'><li onMouseOver={over3} onMouseOut={out3}><div className="text-white flex gap-2"><span className={estilobranca3}></span><p className='barlow-16-27 font-medium'>02</p><p className='barlow-16-27'>Crew</p></div></li></Link>
+                <Link to='/Technology'><li onMouseOver={over4} onMouseOut={out4}><div className="text-white flex gap-2"><span className={estilobranca4}></span><p className='barlow-16-27 font-medium'>03</p><p className='barlow-16-27'>Technology</p></div></li></Link>
             </ul>
             
         </header>
