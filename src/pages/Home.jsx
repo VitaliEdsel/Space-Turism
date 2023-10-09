@@ -27,7 +27,7 @@ function Home() {
                     <p className='text-[#B7BDDD] w-[400px] ml-7'>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
                 </div>
                 <div className='lg:w-[274px] lg:h-[274px] max-lg:h-[180px] max-lg:w-[180px] max-lg:mt-10'>
-                    <Link to='/destination'><span onMouseOver={expandir} onMouseOut={diminuir} className='z-20 relative bg-white rounded-full lg:w-[274px] lg:h-[274px] max-lg:h-[180px] max-lg:w-[180px] flex flex-col justify-center items-center cursor-pointer'><p className='font-[bellefair] text-[32px]'>Explore</p></span></Link>
+                    <Link to='Space-Tourism//destination'><span onMouseOver={expandir} onMouseOut={diminuir} className='z-20 relative bg-white rounded-full lg:w-[274px] lg:h-[274px] max-lg:h-[180px] max-lg:w-[180px] flex flex-col justify-center items-center cursor-pointer'><p className='font-[bellefair] text-[32px]'>Explore</p></span></Link>
                     <span className={classeex}/>
                 </div>
             </div>
